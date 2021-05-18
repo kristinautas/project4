@@ -13,7 +13,7 @@
     die();
   }
 
-  # $newId = 108;  ## basic test of the newId var mychange
+  # $newId = 108;  ## basic test of the newId var mychange another
  
   $insertSql = "INSERT INTO idtable VALUES (null)";
   $selectSql = "SELECT MAX(id) FROM idtable";
